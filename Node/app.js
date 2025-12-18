@@ -13,10 +13,12 @@ const User = require('./models/User');
 const app = express();
 
 //! cors setup
-app.use(cors({
-    origin: 'https://gemai-web-app.onrender.com',
-    credentials: true
-}));
+app.use(
+  cors({
+    origin: process.env.FRONTEND_URL,
+    credentials: true,
+  })
+);
 
 app.use(express.json());
 app.use(cookieParser());
