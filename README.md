@@ -7,7 +7,7 @@ GemAI is a full-stack AI-powered content generation platform built using **Googl
 ## 🌐 Live Links
 
 * **Frontend:** [https://gemai-web-app.onrender.com](https://gemai-web-app.onrender.com)
-* **Backend API:** [https://gemai-server.onrender.com](https://gemai-server.onrender.com)
+* **Backend API:** [https://gemai-project-server.onrender.com](https://gemai-project-server.onrender.com)
 
 ---
 

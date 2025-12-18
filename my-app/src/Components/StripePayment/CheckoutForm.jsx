@@ -38,7 +38,8 @@ const CheckoutForm = () => {
         elements,
         clientSecret: response?.clientSecret,
         confirmParams: {
-          return_url: 'https://gemai-web-app.onrender.com/payment-success',
+          return_url:
+            'https://gemai-project-server.onrender.com/payment-success',
         },
       });
 
